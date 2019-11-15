@@ -11,7 +11,7 @@
     ></script>
     <link rel="stylesheet" href="css/styles.css" />
   </head>
-  <body>
+  <body class="chats-body">
     <div class="status-bar">
       <div class="status-bar__column">
         <span class="status-var__clock">13:54</span>
@@ -40,25 +40,41 @@
         </span>
       </div>
     </header>
-    <main class="chat">
+    <main class="chat-screen">
       <ul class="chat__messages">
         <span class="chat__timestamp">Friday, January 11, 2019</span>
         <li class="incoming-message message">
           <img src="images/avatar.jpg" class="m-avatar massage__avatar" />
           <div class="message__content">
-            <span class="message__author">Best Friend</span>
-            <div class="message__bubble">
+            <span class="message__bubble">
               Congrats I luv you~
-            </div>
-            <span class="message__timestamp"></span>
+            </span>
+            <span class="message__author">Best Friend</span>
+          </div>
+        </li>
+        <li class="sent-message message">
+          <span class="message__timestamp"></span>
+          <div class="message__content">
+            <span class="message__bubble">
+              I luv you too~
+            </span>
           </div>
         </li>
         <li class="incoming-message message">
+          <img src="images/avatar.jpg" class="m-avatar massage__avatar" />
+          <div class="message__content">
+            <span class="message__bubble">
+              I always miss you
+            </span>
+            <span class="message__author">Best Friend</span>
+          </div>
+        </li>
+        <li class="sent-message message">
           <span class="message__timestamp"></span>
           <div class="message__content">
-            <div class="message__bubble">
-              I luv you too~
-            </div>
+            <span class="message__bubble">
+              I miss you too
+            </span>
           </div>
         </li>
       </ul>
